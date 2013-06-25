@@ -1,0 +1,25 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ember_another
+  username: ember_another
+  password:
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ember_another
+  pool: 5
+  username: ember_another
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ember_another
+  pool: 5
+  username: ember_another
+  password:
