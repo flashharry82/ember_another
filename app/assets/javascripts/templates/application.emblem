@@ -1,0 +1,11 @@
+.top-bar
+  %section.top-bar-section
+    %ul.left
+      %li.divider
+      %li.name= linkTo 'index' | Home
+      %li.divider
+      %li.name= linkTo 'contacts' | Contacts
+      %li.divider
+.row
+  .large-12.columns
+    == outlet

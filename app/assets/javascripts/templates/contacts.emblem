@@ -1,0 +1,7 @@
+.large-4.columns
+  %h3 Contacts
+  each model
+    %div= linkTo 'contact' this | #{firstName} #{lastName}
+
+.large-6.columns
+  == outlet

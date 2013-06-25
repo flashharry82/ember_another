@@ -1,0 +1,4 @@
+%h3 Contact
+%ul
+  %li First Name: {{firstName}}
+  %li Last Name: {{lastName}}
